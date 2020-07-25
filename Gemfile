@@ -35,6 +35,12 @@ gem 'bootstrap-sass'
 gem 'faker'
 gem 'will_paginate'
 gem 'bootstrap-will_paginate'
+gem 'carrierwave'
+gem 'mini_magick'
+
+group :production do
+  gem 'fog','2.2.0'
+end
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
