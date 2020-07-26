@@ -35,12 +35,24 @@ gem 'bootstrap-sass'
 gem 'faker'
 gem 'will_paginate'
 gem 'bootstrap-will_paginate'
-gem 'carrierwave'
-gem 'mini_magick'
+# gem 'carrierwave','1.2.2'
+# gem 'mini_magick','4.7.0'
+# gem 'activestorage'
 
-group :production do
-  gem 'fog','2.2.0'
-end
+# group :production do
+#   gem 'fog','1.42'
+# # ! ERROR!
+# # An error occurred while installing ovirt-engine-sdk (4.4.0), and
+# # Bundler cannot continue.
+# # Make sure that `gem install ovirt-engine-sdk -v '4.4.0' --source
+# # 'https://rubygems.org/'` succeeds before bundling.
+# #
+# # In Gemfile:
+# #   fog was resolved to 2.2.0, which depends on
+# #     fog-ovirt was resolved to 1.2.5, which depends on
+# #       ovirt-engine-sdk
+# end
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
